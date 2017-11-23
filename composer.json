@@ -10,7 +10,8 @@
     ],
     "require": {
         "php": "~5.5.0|>=5.6.0",
-        "magento/magento-composer-installer": "*"        
+        "magento/magento-composer-installer": "*",
+        "creatuity/magento2-custom-maintenance-errors": "*"
     },
     "autoload": {
         "files": [
@@ -20,13 +21,5 @@
             "Creatuity\\CustomMaintenance\\": ""
         }
     },
-    "minimum-stability": "stable",
-    "extra": {
-        "map": [
-            [
-                "pub/errors/creatuity_maintenance",
-                "pub/errors/creatuity_maintenance"
-            ]
-        ]
-    }
+    "minimum-stability": "stable"
 }
